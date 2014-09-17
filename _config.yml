@@ -1,11 +1,11 @@
 # Site settings
-title: Code thoughts by bwestlin
+title: Coding thoughts by bwestlin
 #email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   A collection of thoughts and ideas about coding.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://bwestlin.github.io" # the base hostname & protocol for your site
-#twitter_username: jekyllrb
+#twitter_username: bwestlin
 github_username:  bwestlin
 
 # Build settings
