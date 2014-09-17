@@ -2,7 +2,7 @@
 layout: post
 title:  "An example of using webjars together with Spray"
 date:   2014-09-16 21:19:25
-categories: spray.io webjars scala
+tags: spray.io webjars scala
 ---
 [Webjars] is a really nice way of handling dependencies for static assets in a 
 web-application on the JVM.
