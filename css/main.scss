@@ -40,7 +40,31 @@ $on-laptop:        1000px;
     }
 }
 
+iframe {
+  border: 2px solid gray;
+  border-radius: 10px;
+}
 
+@include media-query($on-palm) {
+  iframe {
+    -webkit-transform: scale(.7);
+    -webkit-transform-origin: 0 0;
+    width: 142.857143%;
+
+
+
+    /*-moz-transform: scale(0.25, 0.25);
+    -webkit-transform: scale(0.25, 0.25);
+    -o-transform: scale(0.25, 0.25);
+    -ms-transform: scale(0.25, 0.25);
+    transform: scale(0.25, 0.25);
+    -moz-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;*/
+  }
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
