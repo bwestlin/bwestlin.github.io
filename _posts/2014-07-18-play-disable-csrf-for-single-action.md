@@ -26,7 +26,7 @@ def myAction = CSRFCheck {
 }
 ```
 
-Having these options are probably enough for the most cases, but what if you want to just exclude one single
+Having these options are probably enough for most cases, but what if you want to just exclude one single
 action from the [CSRF] filter?
 
 Surely there must be a way for doing this although there is no built in support in [Play] for this case.
@@ -34,7 +34,7 @@ Surely there must be a way for doing this although there is no built in support 
 I had this problem recently and came up with the following solution which is based on handling the filter-chain
 in a similar way that [Play] does it but giving the ability to select the filters to apply based on the
 request-header.
-By doing that the path could be used for determining which filters to use.
+By doing that the path can be used for determining which filters to use.
 This was good enough for my use case of disabling the CSRFFilter for one Action. 
 
 Here's a code example for the **Global object**: 
@@ -72,7 +72,8 @@ object FilterChainByRequestHeader {
 }
 ```
 
-With the above changes, the path **/path-where-to-bypass-csrf-filter** will not be checked for [CSRF].
+With the above changes, the path **/path-where-to-bypass-csrf-filter** will not be checked for [CSRF] and the
+goal is accomplished.
 
 [playframework]:            https://www.playframework.com/
 [play]:                     https://www.playframework.com/
