@@ -2,7 +2,7 @@
 title: Coding Thoughts by bwestlin
 #email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  A collection of thoughts and ideas about coding.
+  A collection of thoughts, ideas and solutions about coding.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://bwestlin.se" # the base hostname & protocol for your site
 #twitter_username: bwestlin
