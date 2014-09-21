@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Disabling the CSRF filter for a single action in Play"
+title:  "Disabling the CSRF filter for a single action in Play Framework"
 date:   2014-07-17 22:20:21
 tags: playframework scala
 ---
