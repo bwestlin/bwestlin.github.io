@@ -63,7 +63,8 @@ Here's the code for the modified FilterChain which takes a function instead of a
 * the request header
 */
 object FilterChainByRequestHeader {
-  def apply[A](action: EssentialAction, filtersFun: (RequestHeader) => List[EssentialFilter]): EssentialAction = new EssentialAction {
+  def apply[A](action: EssentialAction,
+               filtersFun: (RequestHeader) => List[EssentialFilter]): EssentialAction = new EssentialAction {
     def apply(rh: RequestHeader): Iteratee[Array[Byte], SimpleResult] = {
       val chain = filtersFun(rh).reverse.foldLeft(action) { (a, i) => i(a) }
       chain(rh)
