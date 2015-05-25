@@ -18,14 +18,16 @@ and playing around with the Javascript [Canvas element](http://en.wikipedia.org/
 one of those things. I never came to the part of writing about it though, until now.
 
 One idea I had been thinking about was reimplementing some old graphics effects from back in the days
-in the browser, those kind of effects that was hard to do efficiently on early PC hardware like a
-[Intel 486](http://sv.wikipedia.org/wiki/Intel_80486) using [VGA](http://sv.wikipedia.org/wiki/Video_Graphics_Array).
+in the browser, those kind of effects that was hard to do efficiently on early PC hardware like an
+[Intel 486](http://sv.wikipedia.org/wiki/Intel_80486) with [VGA](http://sv.wikipedia.org/wiki/Video_Graphics_Array).
 You might ask why and the simple answer to that is that I had fun doing that back in the days, so why not now?
+
+### The Plasma effect
 
 The first one I thought of was the [Plasma Effect](http://en.wikipedia.org/wiki/Plasma_effect).
 Doing this kind of graphics effect proved to be a bit tricky to do efficiently in Javascript with canvas
-since it requires direct pixel manipulation. This can be done quite easily like the following code though not
-very efficient performance wise.
+since it requires direct pixel manipulation. This can be done quite easily as in the following code though not
+very efficient performance wise since it can't be done with the GPU.
 
 ```javascript
 // Get hold of the image data
@@ -39,8 +41,6 @@ data[0] = 127;
 ctx.putImageData(imageData, 0, 0);
 ```
 
-### The Plasma effect
-
 After a bit of coding I was able to hack together something looking like this:
 
 [![Plasma Effect](/assets/canvas_plasma.png)](https://rawgit.com/bwestlin/canvas-experiments/master/plasma.html)
@@ -49,6 +49,8 @@ After a bit of coding I was able to hack together something looking like this:
 
 It was a bit of a struggle to make it run at least decently smooth on my machine and while trying to optimize
 the code quite a bit there's surely room for more optimization.
+
+I do like the end result though by the looks of it..
 
 ### The Starfield effect
 
@@ -85,5 +87,5 @@ Code for that one can be viewed and borrowed from here: [canvas-helpers.js](http
 All in all it was really fun doing these things which reminded me of the good old C++ days when one was having fun with
 such things.
 It's also a bit interesting that although all hardware speedups it proved at least as challenging to do these
-graphics effect at a decent framerate as back then with a i486 running DOS.
+graphics effect at a decent framerate as back then with an i486 running DOS.
 Thinking about it, even more.
