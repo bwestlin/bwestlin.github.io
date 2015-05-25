@@ -59,8 +59,9 @@ Next effect I did was a twist of one of my favourites back then, the Starfield e
 
 This one was a bit easier to make perform since it didn't require pixel manipulation. It did prove a bit difficult
 though when I added the motion blur effect where I initially got some weird trails after the stars.
-These were a bit hard to get rid of entirely and varies depending on browser and are caused by how transparency is
-calculated in the browser implementation. In the end I got it to work fine, at least in Chrome by setting the
+These were a bit hard to get rid of entirely and varied depending on browser. After a bit of Googling
+I found out that they are caused by how transparency is calculated in the browser implementation.
+In the end I got it to work fine, at least in Chrome by setting the
 background color on the canvas element to black using CSS.
 
 ### The Fire effect
