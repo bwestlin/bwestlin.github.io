@@ -4,9 +4,12 @@ title: Coding Thoughts by bwestlin
 description: > # this means to ignore newlines until "baseurl:"
   A collection of thoughts, ideas and solutions about coding.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://bwestlin.se" # the base hostname & protocol for your site
-#twitter_username: bwestlin
-github_username:  bwestlin
+url: "http://coding.bwestlin.se" # the base hostname & protocol for your site
+twitter_username: bwestlin
+github_username: bwestlin
+
+# Outputting
+permalink: pretty
 
 # Build settings
 #markdown: kramdown
