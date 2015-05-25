@@ -27,7 +27,7 @@ You might ask why and the simple answer to that is that I had fun doing that bac
 The first one I thought of was the [Plasma Effect](http://en.wikipedia.org/wiki/Plasma_effect).
 Doing this kind of graphics effect proved to be a bit tricky to do efficiently in Javascript with canvas
 since it requires direct pixel manipulation. This can be done quite easily as in the following code though not
-very efficient performance wise since it can't be done with the GPU.
+very efficient performance wise since it can't be done utilizing the GPU.
 
 ```javascript
 // Get hold of the image data
@@ -50,7 +50,7 @@ After a bit of coding I was able to hack together something looking like this:
 It was a bit of a struggle to make it run at least decently smooth on my machine and while trying to optimize
 the code quite a bit there's surely room for more optimization.
 
-I do like the end result though by the looks of it..
+I do like the end result though by the looks of it!
 
 ### The Starfield effect
 
