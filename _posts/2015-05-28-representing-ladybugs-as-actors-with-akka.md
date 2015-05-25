@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Reactive ladybugs"
-date:   2014-10-01 21:19:25
-tags: spray.io webjars scala
+title:  "Representing Ladybugs as Actors in a Actorsystem with Akka"
+date:   2015-05-28 21:19:25
+tags: akka actor scala websocket spray.io
 ---
 
 Once when studying at [KTH](http://www.kth.se/) we had a programming assignment consisting of building an
