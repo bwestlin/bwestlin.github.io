@@ -19,6 +19,8 @@ was set to be done in C++ targeting the Win32 API.
 
 <iframe width="640" height="480" src="//www.youtube.com/embed/mhjmqMw9Lnc" frameborder="0" allowfullscreen></iframe>
 
+It was a kinda weird exercise, I know :P
+
 I remember spending quite a lot of time on this assignment, not only on the programming part but also on the
 graphics side where I put some extra effort modelling and animating the ladybugs in 3D-studio.
 The year must have been 1999.
