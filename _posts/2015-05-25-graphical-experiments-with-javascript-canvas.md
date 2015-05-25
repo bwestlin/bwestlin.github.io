@@ -72,16 +72,18 @@ Next effect was something with another favourite, the Fire effect:
 [Source Code](https://github.com/bwestlin/canvas-experiments/blob/master/js/effects/fire.js)
 
 This one proved quite challenging too since there is no indexed color support in canvas using a palette
-like there was back then.
+like there was back then in VGA.
 In the end I had to implement support for indexed colors using a palette on my own by transforming the image
 data pixel by pixel using a palette.
 
 In the end I had developed a generic little library for handling the different difficulties I came across and
 other things related to canvas and animations in the browser.
-Code for that one is here: [canvas-helpers.js](https://github.com/bwestlin/canvas-experiments/blob/master/js/canvas-helpers.js)
+Code for that one can be viewed and borrowed from here: [canvas-helpers.js](https://github.com/bwestlin/canvas-experiments/blob/master/js/canvas-helpers.js)
 
 ### End notes
 
 All in all it was really fun doing these things which reminded me of the good old C++ days when one was having fun with
-such things. Also a bit interesting that although all hardware speedups it proved at least as challenging to do these
-graphics effect at a decent framerate as back then with a 486 running DOS, I think even more actually.
+such things.
+It's also a bit interesting that although all hardware speedups it proved at least as challenging to do these
+graphics effect at a decent framerate as back then with a i486 running DOS.
+Thinking about it, even more.
