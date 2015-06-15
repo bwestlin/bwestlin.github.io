@@ -41,8 +41,7 @@ $on-laptop:        1000px;
 }
 
 iframe {
-  border: 2px solid gray;
-  border-radius: 10px;
+  border: none;
 }
 
 @include media-query($on-palm) {

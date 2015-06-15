@@ -15,11 +15,8 @@ ladybug that it represented, including drawing to the screen.
 This exercise was mainly about learning to program correctly in the realms of multi-threading and the exercise
 was set to be done in C++ targeting the Win32 API.
 
-*Here follows a video of the application running:*
-
+*This video shows the original application running:*
 <iframe width="640" height="480" src="//www.youtube.com/embed/mhjmqMw9Lnc" frameborder="0" allowfullscreen></iframe>
-
-It was a kinda weird exercise, I know :P
 
 I remember spending quite a lot of time on this assignment, not only on the programming part but also on the
 graphics side where I put some extra effort modelling and animating the ladybugs in 3D-studio.
@@ -33,6 +30,7 @@ this old school assignment using [Akka](http://akka.io/) where each ladybug woul
 My idea for the end result is be to display the ladybugs wandering around in a web-browser updating the current
 state in real-time through a [websocket](http://en.wikipedia.org/wiki/WebSocket).
 
-Why not skip to end directly and then rewind? Below is the actual end result running in the browser:
+I've now been working for a while on this project and this is how it ended up:
 
-<iframe src="http://ladybugs.herokuapp.com/" width="840" height="640"></iframe>
+<iframe src="http://ladybugs.herokuapp.com/?inline=true" width="900" height="740"></iframe>
+
