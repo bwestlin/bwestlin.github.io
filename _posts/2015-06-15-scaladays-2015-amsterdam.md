@@ -60,13 +60,13 @@ by [Erik Bakker](http://twitter.com/@eamelink) which very pedagogically explaine
 expressing intent more clearly.
 
 A quite common real world issue while programming in Scala is that different [Monads](https://en.wikipedia.org/wiki/Monad_(functional_programming))
-don't compose which makes it impossible to mix them in a for-comprehensions. This can lead to severely nested and
+don't compose which makes it impossible to mix them in a for-comprehension. This can lead to severely nested and
 unreadable code.
 
-Using Monad transformers is a solution to this issue, basically a way to lift the different monads into the same shape from
-where they can be composed.
+Using Monad transformers is a solution to this issue, allowing us to combine several monads into one.
+We can then write a for-comprehension where we directly access all the combined monads, e.g., both futures and options.
 
-# Let the user of a library decide upon how to handle errors
+# Why not let the user of a library decide upon how to handle errors
 
 Another talk I found really intriguing was
 [Delimited dependently-typed monadic checked exceptions in Scala](http://event.scaladays.org/scaladays-amsterdam-2015#!#schedulePopupExtras-6918)
