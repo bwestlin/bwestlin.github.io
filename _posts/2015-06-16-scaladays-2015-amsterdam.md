@@ -11,6 +11,7 @@ Firstly, where is Scala heading?
 
 Whilst listening to [Martin Odersky](http://twitter.com/@odersky) speak about
 [Scala - where it came from, where it's going](http://event.scaladays.org/scaladays-amsterdam-2015#!#schedulePopupExtras-6883)
+[[Video Link]](https://www.parleys.com/tutorial/scala-where-came-from-where-its-going-1)
 the first things i picked up was the foloowing.
 
 
@@ -38,7 +39,8 @@ One example of that would be Union/Intersection types where one can describe typ
 
 # Three is a magic number (Gålbma in Sami)
 
-[Roland Kuhn](http://twitter.com/@rolandkuhn) gave a great talk about [Project Gålbma]()
+[Roland Kuhn](http://twitter.com/@rolandkuhn) gave a great talk about [Project Gålbma: Actors vs. Types ](http://event.scaladays.org/scaladays-amsterdam-2015#!#schedulePopupExtras-6886)
+[[Video Link]](https://www.parleys.com/tutorial/project-galbma-actors-vs-types)
 which in essence adds typing to the Actor model in Akka. This is the third stab at having typed Actors and probably the one to be
 decided upon. While at it he decided to fix various other issues and warts that he been bugged by in the currect untyped Akka Actors.
 
@@ -59,6 +61,7 @@ I'm really looking forward to using this in the future.
 # Transforming the Monads
 
 One of the best talks I went to was [Options in Futures, how to unsuck them](http://event.scaladays.org/scaladays-amsterdam-2015#!#schedulePopupExtras-6901)
+[[Video Link]](https://www.parleys.com/tutorial/options-futures-how-unsuck-them)
 by [Erik Bakker](http://twitter.com/@eamelink) which very pedagogically explained why one might want to use
 [Monad transformers](https://en.wikipedia.org/wiki/Monad_transformer) to make code in Scala easier to comprehend and
 expressing intent more clearly.
@@ -75,6 +78,7 @@ We can then write a for-comprehension where we directly access all the combined 
 
 Another talk I found really intriguing was
 [Delimited dependently-typed monadic checked exceptions in Scala](http://event.scaladays.org/scaladays-amsterdam-2015#!#schedulePopupExtras-6918)
+[[Video Link]](https://www.parleys.com/tutorial/delimited-dependently-typed-monadic-checked-exceptions-scala-1)
 by [Jon Pretty](http://twitter.com/@propensive) which by the title sounded like a way to have checked exceptions like in Java for Scala.
 
 It started out though about a more general issue that there is no agreement in the Scala community about how to handle exceptions.
@@ -106,12 +110,14 @@ All in all a very interesting and promising approach for handling exceptions.
 Some other talks I found interresting was:
 
 [Easy Scalability with Akka](http://event.scaladays.org/scaladays-amsterdam-2015#!#schedulePopupExtras-6952)
+[[Video Link]](https://www.parleys.com/tutorial/easy-scalability-akka-1)
 by [Michael Nash](http://twitter.com/@MichaelPNash) where potential scalability for an online auction type of application
 was compared for a CRUD approach vs a CQRS one where both were using Cassandra for persistence.
 The takeaway was that the CQRS one had near linear scalability when of adding more nodes to the cluster, although more tuning was
 required. The CRUD approach showed diminishing benefit of adding more nodes though.
 
 [So how do I do a 2-phase-commit with Akka then?](http://event.scaladays.org/scaladays-amsterdam-2015#!#schedulePopupExtras-6928)
+[[Video Link]](https://www.parleys.com/tutorial/so-how-do-i-do-2-phase-commit-akka)
 by [Lutz Huehnken](http://twitter.com/@lutzhuehnken) where the speaker said it could have been titled "A pragmatic view of reactive" instead.
 Essentially what one might want is:
 
@@ -123,8 +129,8 @@ Essentially what one might want is:
 One might want to consider whether 2-phase commits are really needed. If so this can be expressed through messaging with some extra requirements.
 For a real world solution, consider the [Saga Pattern](http://www.cs.cornell.edu/andru/cs711/2002fa/reading/sagas.pdf).
 
-
 [Towards Browser and Server Utopia with Scala.JS: an example using CRDTs](http://event.scaladays.org/scaladays-amsterdam-2015#!#schedulePopupExtras-6925) 
+[[Video Link]](https://www.parleys.com/tutorial/towards-browser-server-utopia-scala-js-example-using-crdts)
 by [Richard Dallaway](http://twitter.com/@d6y) arguing that Scala.JS is a nice choice for sharing code between backend and frontend.
 This was then examplified as an application for a collaborative online editor where
 [CRDTs (Conflict-free replicated data types)](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type)
