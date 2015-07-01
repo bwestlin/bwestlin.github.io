@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ladybugs as Actors with Akka"
+title:  "Ladybugs as Actors with Akka and Spray Websocket"
 date:   2015-07-10 21:19:25
 tags: akka actor scala websocket spray.io
 ---
