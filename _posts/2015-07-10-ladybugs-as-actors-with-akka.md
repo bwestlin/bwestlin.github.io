@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Representing Ladybugs as Actors in a Actorsystem with Akka"
+title:  "Ladybugs as Actors with Akka"
 date:   2015-07-10 21:19:25
 tags: akka actor scala websocket spray.io
 ---
