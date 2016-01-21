@@ -7,6 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://coding.bwestlin.se" # the base hostname & protocol for your site
 twitter_username: bwestlin
 github_username: bwestlin
+500px_username: bwestlin
 
 # Outputting
 permalink: pretty
