@@ -4,7 +4,7 @@ title:  "An example of using webjars together with Spray"
 date:   2014-09-16 21:19:25
 tags: spray.io webjars scala
 ---
-[Webjars] is a really nice way of handling dependencies for static assets in a 
+[Webjars] is a really nice way of handling dependencies for static assets in a
 web-application on the JVM.
 
 Having used webjars together with [playframework] for some time, this was the
@@ -32,15 +32,15 @@ pathPrefix("webjars") {
 
 If then the jquery webjar was added as a maven dependency, ie:
 
- ```scala
- "org.webjars" % "jquery" % "2.1.1",
- ```
- 
+```scala
+"org.webjars" % "jquery" % "2.1.1",
+```
+
  It could be referenced from a html page through:
 
- ```html
- <script type="text/javascript" src="/webjars/jquery/2.1.1/jquery.min.js"></script>
- ```
+```html
+<script type="text/javascript" src="/webjars/jquery/2.1.1/jquery.min.js"></script>
+```
 
 A full example application demonstrating this is available on github here: [https://github.com/bwestlin/spray-webjars-example](https://github.com/bwestlin/spray-webjars-example)
 

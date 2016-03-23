@@ -13,12 +13,4 @@ github_username: bwestlin
 permalink: pretty
 
 # Build settings
-#markdown: kramdown
-markdown: redcarpet
-
-redcarpet:
-  extensions: []
-
-kramdown:
-  input: GFM
-  use_coderay: true
+markdown: kramdown
