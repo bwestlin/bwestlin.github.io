@@ -2,14 +2,13 @@
 layout: post
 title:  "Graphical experiments with the Javascipt Canvas"
 date:   2015-05-25 21:55:00
-tags: javascript canvas gfx
+tags: javascript canvas graphics gfx
 ---
-It's been a while now since i wrote something here now, 
-thinking about it I kindof never got really started either :P
-Who knows, now might be a good time to continue with some writing.
+It's been a while now since i wrote something here now,
+thinking about it I kind of never got really started anyways :P.
+So now might be a good time to continue with some writing...
 
-Since last a lots of things has happened
-with changing jobs as the foremost one.
+Since last a lots of things has happened with changing jobs as the foremost one.
 Since February I now work at [Magine TV](https://magine.com/) building software for a better TV future,
 mainly in [Scala](http://www.scala-lang.org/).
 
@@ -88,4 +87,4 @@ All in all it was really fun doing these things which reminded me of the good ol
 such things.
 It's also a bit interesting that although all hardware speedups it proved at least as challenging to do these
 graphics effect at a decent framerate as back then with an i486 running DOS.
-Thinking about it, even more.
+Thinking about it actually even more.
