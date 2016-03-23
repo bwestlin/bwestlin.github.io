@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Simulating a Ladybug's life with Akka Actors some Websockets and Spray.io"
+title:  "Simulating a Ladybug's life with Akka Actors, some Websockets and Spray.io"
 date:   2016-01-10 21:19:25
 tags: akka actor scala websocket spray.io
 ---

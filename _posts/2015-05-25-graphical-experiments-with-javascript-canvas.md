@@ -26,7 +26,7 @@ You might ask why and the simple answer to that is that I had fun doing that bac
 The first one I thought of was the [Plasma Effect](http://en.wikipedia.org/wiki/Plasma_effect).
 Doing this kind of graphics effect proved to be a bit tricky to do efficiently in Javascript with canvas
 since it requires direct pixel manipulation. This can be done quite easily as in the following code though not
-very efficient performance wise since it can't be done utilizing the GPU.
+very efficient performance wise since it can't be done utilizing the [GPU](https://en.wikipedia.org/wiki/Graphics_processing_unit).
 
 ```javascript
 // Get hold of the image data
